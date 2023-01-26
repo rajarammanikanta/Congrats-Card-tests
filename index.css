@@ -1,0 +1,60 @@
+/* Write your code here. */
+.bg-container1 {
+  background-image: url("https://assets.ccbp.in/frontend/react-js/congrats-card-bg.png");
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+* {
+  margin: 0px;
+}
+.bg-container2 {
+  background-color: #cffafe;
+  height: 60vh;
+  max-width: 60%;
+  padding: 10px;
+  margin: 40px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.watch {
+  height: 90px;
+  width: 90px;
+  padding-top: 20px;
+}
+
+.photo {
+  height: 90px;
+  width: 90px;
+  padding-bottom: 20px;
+}
+@media screen and (max-width: 576px) {
+  .bg-container1 {
+    height: 60vh;
+  }
+  .bg-container2 {
+    max-width: 90%;
+    height: 40vh;
+    margin: 10px;
+  }
+  h1 {
+    font-size: 10px;
+  }
+  p {
+    font-size: 10px;
+  }
+  .photo {
+    height: 40px;
+    width: 40px;
+  }
+  .watch {
+    height: 40px;
+    width: 40px;
+  }
+}
